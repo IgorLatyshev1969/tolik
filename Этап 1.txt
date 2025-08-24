@@ -1,7 +1,0 @@
-Overall status: PASS
-
-Directory structure: PASS
-
-.gitignore setup: PASS
-
-Logger setup: PASS

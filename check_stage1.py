@@ -65,10 +65,10 @@ def main():
     overall_status = "PASS" if all_passed else "FAIL"
     report.insert(0, f"Overall status: {overall_status}\n")
     
-    with open("Этап 1.txt", "w") as f:
+    with open("stage_1_report.txt", "w") as f:
         f.write("\n".join(report))
     
-    print(f"Report has been written to 'Этап 1.txt'")
+    print(f"Report has been written to 'stage_1_report.txt'")
     return 0 if all_passed else 1
 
 if __name__ == "__main__":
